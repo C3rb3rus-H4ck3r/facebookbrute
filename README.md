@@ -7,7 +7,7 @@ This is facebook bruteforce project. It uses Selenium to brute facebook so you w
 
 CREDIT:
 
-  This project was developed from brut3k1t,which was made by ex0dus-0x.
+  This project was developed from brut3k1t,which was made by dillibk777.
   Here is the page : https://github.com/ex0dus-0x/brut3k1t
   Since this script was not functionning, and was not ready for a attack, so I decided to develop this program from his.
 
@@ -25,6 +25,8 @@ Get the requirements:
     python setup.py
 
 Command:
+
+    chmod +x fbrute.py && chmod +x setup.py && chmod +x torip.py
 
     python fbrute.py -s [service] -u [username] -w [wordlist] -d [delay(Optional)]
 
