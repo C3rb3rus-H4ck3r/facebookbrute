@@ -26,15 +26,15 @@ Get the requirements:
 
 Command:
 
-    python faitagram -s [service] -u [username] -w [wordlist] -d [delay(Optional)]
+    python fbrute.py -s [service] -u [username] -w [wordlist] -d [delay(Optional)]
 
 Examples:
 
   
 
-    python faitagram -s facebook -u MeMeBigBoy@gmail.com -w /root/passwd.txt -d 10
+    python fbrute.py -s facebook -u useremail@gmail.com -w /root/passwd.txt -d 10
 
-    (Execute faitagram) (facebook)  (Email of the target)  (wordlist path)   (delay[10secs])
+    (Execute facebook brutefurece) (facebook)  (Email of the target)  (wordlist path)   (delay[10secs])
 
 
   
