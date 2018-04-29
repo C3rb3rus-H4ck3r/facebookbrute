@@ -21,12 +21,11 @@ I am not responsible for your action.
 ----------------  How To Use ----------------
 
 Get the requirements:
-
+    
+    chmod +x fbrute.py && chmod +x setup.py && chmod +x torip.py
     python setup.py
 
 Command:
-
-    chmod +x fbrute.py && chmod +x setup.py && chmod +x torip.py
 
     python fbrute.py -s [service] -u [username] -w [wordlist] -d [delay(Optional)]
 
