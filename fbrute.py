@@ -193,7 +193,7 @@ class Bruter(object):
                 if j == 2:
 
                    j=0
-		   os.system("python toriptables2.py -l")
+		   os.system("python torip.py -l")
 
                    my_ip = urlopen("http://ip.42.pl/raw").read()
 
@@ -226,7 +226,7 @@ if __name__ == '__main__':
 
     except KeyboardInterrupt:
 	
-	os.system("python toriptables2/toriptables2.py -f")
+	os.system("python torip.py -f")
         print(R + "\nError : Keyboard Interrupt" + W)
 
         os.system("rm -rf tmp/ geckodriver.log && service tor stop")
